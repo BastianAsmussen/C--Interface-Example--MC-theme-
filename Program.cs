@@ -7,10 +7,11 @@ List<Mob> getNearbyMobs()
     mobs.Add(new Villager());
     mobs.Add(new Cow());
     mobs.Add(new Sheep());
+
     return mobs;
 }
 
-
 List<Mob> nearbyMobs = getNearbyMobs();
+
 Player player = new Player();
 player.Update();

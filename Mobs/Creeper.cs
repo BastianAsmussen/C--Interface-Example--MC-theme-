@@ -1,5 +1,3 @@
 namespace gettingstarted.Mobs;
-public class Creeper : Mob
-{
 
-}
+public class Creeper : Mob {}

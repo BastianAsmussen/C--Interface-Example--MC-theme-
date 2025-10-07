@@ -1,5 +1,3 @@
 namespace gettingstarted.Mobs;
-public class Wolf : Mob
-{
-    
-}
+
+public class Wolf : Mob {}

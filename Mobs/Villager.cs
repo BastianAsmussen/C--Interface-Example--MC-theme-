@@ -1,5 +1,3 @@
 namespace gettingstarted.Mobs;
-public class Villager : Mob
-{
 
-}
+public class Villager : Mob {}
