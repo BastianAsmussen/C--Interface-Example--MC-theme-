@@ -1,5 +1,8 @@
 using gettingstarted.Mobs;
+
+public enum Item { Wheat, Seeds }
+
 public interface IBreedable
 {
-    string GetBreedableItem();
+    Item GetBreedableItem();
 }

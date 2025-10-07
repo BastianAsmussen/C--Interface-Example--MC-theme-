@@ -2,8 +2,8 @@ namespace gettingstarted.Mobs;
 
 public class Sheep : Mob, IBreedable
 {
-    public string GetBreedableItem()
+    public Item GetBreedableItem()
     {
-        return "Wheat";
+        return Item.Wheat;
     }
 }
